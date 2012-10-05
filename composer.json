@@ -1,0 +1,26 @@
+{
+  "name": "ajgl/h5bp-bundle",
+  "type": "symfony-bundle",
+  "description": "Adds HTML5 Boilerplate template to symfony2",
+  "keywords": ["html5", "h5bp", "boilerplate", "html5boilerplate", "bundle", "symfony"],
+  "homepage": "https://github.com/ajgl/AjglH5bpBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio J. García Lagar",
+      "email": "aj@garcialagar.es",
+      "homepage": "http://aj.garcialagar.es",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": ">=2.0,<2.2-dev",
+    "symfony/twig-bundle": ">=2.0,<2.2-dev",
+    "ajgl/jquery-bundle": "1.8.2"
+  },
+  "autoload": {
+    "psr-0": { "Ajgl\\Bundle\\H5bpBundle": "" }
+  },
+  "target-dir": "Ajgl/Bundle/H5bpBundle"
+}

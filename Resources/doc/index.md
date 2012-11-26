@@ -67,7 +67,8 @@ assetic:
             ....
 ```
 
-### Next Steps
+Next Steps
+----------
 
 Now that you have completed the basic installation you should extend
 the base twig template
@@ -75,8 +76,17 @@ the base twig template
 {% extends "AjglH5bpBundle::h5bp.base.html.twig" %}
 ```
 
-### Configure Google Analytics
+Available variables
+-------------------
+The template uses some variables that you can optionally redefine to customize its behaviour. Here's the complete list:
 
+ - **h5bp_html_classes**: allows you to set custom classes to the html tag.
+ - **h5bp_body_classes**: allows you to set custom classes to the body tag.
+ - **h5bp_analytics_id**: allows you to specify your google analytics id. If you don't provide a value for this variable the whole Google analytics script won't be added on the resulting page.
+
+
+Configure Google Analytics
+--------------------------
 Google analytics is disabled by default. You can easily enable it
 by passing your analytics id within the variable "h5bp_analytics_id".
 Anyway I suggest you to set this variable directly in your configuration
